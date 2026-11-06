@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal de Estudos</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f4f8;
+    color: #23354d;
+}
+
+header {
+    background: #142b46;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 32px;
+}
+
+header p {
+    color: #cbd8e6;
+}
+
+main {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-top: 35px;
+    border-left: 5px solid #2878bd;
+    padding-left: 12px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(230px, 1fr));
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #0000000d;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px #00000018;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #174b7a;
+}
+
+.card p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #2169a5;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background: #164b79;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #64748b;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>📚 Portal de Estudos</h1>
+    <p>Banking • Economia • Investimentos</p>
+    <p>Seu ambiente de aprendizado e preparação.</p>
+</header>
+
+<main>
+
+<h2>🧠 Mapas Mentais</h2>
+
+<div class="grid">
+
+    <div class="card">
+        <h3>🏦 Banking</h3>
+        <p>Mapas mentais sobre o universo bancário.</p>
+        <a href="MapaMental%20-%20Banking.html">
+            Acessar Mapa Mental
+        </a>
+    </div>
+
+    <div class="card">
+        <h3>📊 Economia</h3>
+        <p>Conceitos e fundamentos econômicos.</p>
+        <a href="MapaMental%20-%20Economia.html">
+            Acessar Mapa Mental
+        </a>
+    </div>
+
+    <div class="card">
+        <h3>📈 Investimentos</h3>
+        <p>Conteúdos sobre investimentos e mercado financeiro.</p>
+        <a href="MapaMental%20-%20Investimentos.html">
+            Acessar Mapa Mental
+        </a>
+    </div>
+
+</div>
+
+<h2>📝 Simulados</h2>
+
+<div class="grid">
+
+    <div class="card">
+        <h3>🏦 Banking</h3>
+        <p>Teste seus conhecimentos sobre Banking.</p>
+        <a href="Simulado%20-%20Banking.html">
+            Iniciar Simulado
+        </a>
+    </div>
+
+    <div class="card">
+        <h3>📊 Economia</h3>
+        <p>Pratique seus conhecimentos em Economia.</p>
+        <a href="Simulado%20-%20Economia.html">
+            Iniciar Simulado
+        </a>
+    </div>
+
+    <div class="card">
+        <h3>📈 Investimentos</h3>
+        <p>Teste seus conhecimentos em Investimentos.</p>
+        <a href="Simulado%20-%20Investimentos.html">
+            Iniciar Simulado
+        </a>
+    </div>
+
+</div>
+
+</main>
+
+<footer>
+    Portal de Estudos • Desenvolvido para aprendizado
+</footer>
+
+</body>
+</html>
